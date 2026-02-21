@@ -1,0 +1,18 @@
+{
+  "name": "chopstick-design-system",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Chopstick Design System",
+  "scripts": {
+    "build": "pnpm -r build",
+    "build:tokens": "pnpm --filter @chopstick/tokens build",
+    "build:components": "pnpm --filter @chopstick/components build",
+    "dev": "pnpm --filter @chopstick/components storybook",
+    "clean": "pnpm -r clean"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.4"
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+packages/tokens/src/generated/
+storybook-static/
+.DS_Store
+*.log
+.env
+.env.*
+*storybook.log
